@@ -166,6 +166,7 @@ TestCase8
     #Click "Create"
     click element                        //*[@class="dc-btn dc-btn__effect dc-btn--primary dc-btn__large da-api-token__button"]
     #Verify the name
+    page should contain                  //*[@id="app_contents"]/div/div/div/div/div[2]/div/div[2]/div/section/div/div/form/div/div[3]/div[2]/div/div/table/thead/tr/th[1]/span
 
 
 
